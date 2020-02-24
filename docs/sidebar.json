@@ -1,6 +1,9 @@
 {
   "text_to_img": {
     "Overview": "/",
-    "module name here": "/core"
+    "Data Coco": "/data.coco",
+    "Script to generate tiny test data set for quick testing": "/gen_tiny_data",
+    "Fulltest of Train LM": "/fulltest_train_lm",
+    "Train LM": "/train_lm"
   }
 }

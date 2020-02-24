@@ -10,8 +10,17 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: module name here
-      url: /core
+      title: Data Coco
+      url: /data.coco
+    - output: web,pdf
+      title: Script to generate tiny test data set for quick testing
+      url: /gen_tiny_data
+    - output: web,pdf
+      title: Fulltest of Train LM
+      url: /fulltest_train_lm
+    - output: web,pdf
+      title: Train LM
+      url: /train_lm
     output: web
     title: text_to_img
   output: web

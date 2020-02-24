@@ -2,9 +2,10 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"get_tiny_lm_dsets": "02_data.coco.ipynb",
+         "get_small_lm_dsets": "02_data.coco.ipynb"}
 
-modules = []
+modules = ["data/coco.py"]
 
 doc_url = "https://cwza.github.io/text_to_img/"
 

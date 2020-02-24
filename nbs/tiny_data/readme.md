@@ -1,0 +1,1 @@
+Sample 100 images from Image COCO 2014 for quick testing.

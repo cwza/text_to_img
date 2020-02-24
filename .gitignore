@@ -144,3 +144,5 @@ checklink/cookies.txt
 
 /nbs/data/
 /nbs/models/
+/nbs/coco_large/
+/nbs/coco_small/
