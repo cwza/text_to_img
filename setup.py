@@ -44,7 +44,7 @@ setuptools.setup(
     entry_points = { 'console_scripts': cfg.get('console_scripts','').split() },
     install_requires = [
         'fastai2_utils @ git+https://github.com/cwza/fastai2_utils.git',
-        'pycocotools',
+        'Cython', 'pycocotools',
     ],
     extras_require={
         'dev': ['nbdev']
