@@ -1,9 +1,14 @@
 {
   "text_to_img": {
     "Overview": "/",
-    "Data Coco": "/data.coco",
-    "Script to generate tiny test data set for quick testing": "/gen_tiny_data",
+    "EDA": "/eda[script]",
+    "Script to generate tiny test data set for quick testing": "/gen_coco_tiny_data[script]",
+    "Data Coco": "/data_coco",
+    "Model": "/model",
+    "Loss": "/loss",
     "Fulltest of Train LM": "/fulltest_train_lm",
-    "Train LM": "/train_lm"
+    "Full test of train generator": "/fulltest_train_generator",
+    "Train LM": "/train_lm[script]",
+    "Title": "/train_generator[script]"
   }
 }

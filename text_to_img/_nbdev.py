@@ -2,10 +2,34 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"get_tiny_lm_dsets": "02_data.coco.ipynb",
-         "get_small_lm_dsets": "02_data.coco.ipynb"}
+index = {"train_img_path": "02_data_coco.ipynb",
+         "train_anno_path": "02_data_coco.ipynb",
+         "val_img_path": "02_data_coco.ipynb",
+         "val_anno_path": "02_data_coco.ipynb",
+         "tiny_img_path": "02_data_coco.ipynb",
+         "tiny_anno_path": "02_data_coco.ipynb",
+         "get_captions": "02_data_coco.ipynb",
+         "get_lm_dsets": "02_data_coco.ipynb",
+         "get_tiny_lm_dsets": "02_data_coco.ipynb",
+         "get_small_lm_dsets": "02_data_coco.ipynb",
+         "get_captions_by_imgid": "02_data_coco.ipynb",
+         "get_imgfilepath_by_imgid": "02_data_coco.ipynb",
+         "imgpath_to_captions": "02_data_coco.ipynb",
+         "get_tiny_gen_dsets": "02_data_coco.ipynb",
+         "get_small_gen_dsets": "02_data_coco.ipynb",
+         "get_gen_dls": "02_data_coco.ipynb",
+         "displayable_caption": "05_leaner.ipynb",
+         "Encoder": "03_model.ipynb",
+         "Decoder": "03_model.ipynb",
+         "MGenerator": "03_model.ipynb",
+         "FeatureLoss": "04_loss.ipynb",
+         "get_generator_learner": "05_leaner.ipynb",
+         "get_critic_learner": "05_leaner.ipynb"}
 
-modules = ["data/coco.py"]
+modules = ["data_coco.py",
+           "model.py",
+           "loss.py",
+           "learner.py"]
 
 doc_url = "https://cwza.github.io/text_to_img/"
 
